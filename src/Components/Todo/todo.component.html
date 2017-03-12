@@ -1,0 +1,9 @@
+<h1>{{Title}}</h1>
+<form (submit)='SaveTodo()'>
+    <input [(ngModel)]='Todo.name' type='text' name='textbox' class="form-control control" />
+    <div>
+        <p (click)='EditTodo(todo)' *ngFor='let todo of _todoService.Todos'>{{todo.name}}</p>
+    </div>
+    <button class="btn btn-primary btn-xs">Submit</button>
+</form>
+<button class="btn btn-primary btn-xs" (click)='OpenDialog()'>OpenDialog</button>

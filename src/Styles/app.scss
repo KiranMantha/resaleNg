@@ -1,0 +1,17 @@
+$icon-font-path: "node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import "lib/variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "lib/flatly";
+@import 'dialog';
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.control {
+    height: 32px;
+    line-height: 33px;
+    padding: 5px 10px;
+    &:focus {
+        border: 1px solid #dce4ec;
+    }
+}
