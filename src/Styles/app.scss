@@ -207,7 +207,8 @@ body {
   color: rgba(255, 255, 255, 0.65);
 }
 
-.card-inverse .card-link:focus, .card-inverse .card-link:hover {
+.card-inverse .card-link:focus, .card-inverse .card-link:hover,
+.card-primary, .card-success, .card-info, .card-warning, .card-danger {
   color: #fff;
 }
 
