@@ -104,8 +104,8 @@ body {
 }
 
 .card-primary {
-  background-color: #0275d8;
-  border-color: #0275d8;
+  background-color: $brand-primary;
+  border-color: $brand-primary;
 }
 
 .card-primary .card-header,
@@ -114,8 +114,8 @@ body {
 }
 
 .card-success {
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: $brand-success;
+  border-color: $brand-success;
 }
 
 .card-success .card-header,
@@ -124,8 +124,8 @@ body {
 }
 
 .card-info {
-  background-color: #5bc0de;
-  border-color: #5bc0de;
+  background-color: $brand-info;
+  border-color: $brand-info;
 }
 
 .card-info .card-header,
@@ -134,8 +134,8 @@ body {
 }
 
 .card-warning {
-  background-color: #f0ad4e;
-  border-color: #f0ad4e;
+  background-color: $brand-warning;
+  border-color: $brand-warning;
 }
 
 .card-warning .card-header,
@@ -144,8 +144,8 @@ body {
 }
 
 .card-danger {
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: $brand-danger;
+  border-color: $brand-danger;
 }
 
 .card-danger .card-header,
@@ -155,7 +155,7 @@ body {
 
 .card-outline-primary {
   background-color: transparent;
-  border-color: #0275d8;
+  border-color: $brand-primary;
 }
 
 .card-outline-secondary {
@@ -165,22 +165,22 @@ body {
 
 .card-outline-info {
   background-color: transparent;
-  border-color: #5bc0de;
+  border-color: $brand-info;
 }
 
 .card-outline-success {
   background-color: transparent;
-  border-color: #5cb85c;
+  border-color: $brand-success;
 }
 
 .card-outline-warning {
   background-color: transparent;
-  border-color: #f0ad4e;
+  border-color: $brand-warning;
 }
 
 .card-outline-danger {
   background-color: transparent;
-  border-color: #d9534f;
+  border-color: $brand-danger;
 }
 
 .card-inverse {
