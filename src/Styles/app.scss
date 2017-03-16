@@ -1,9 +1,6 @@
-$icon-font-path: "node_modules/bootstrap-sass/assets/fonts/bootstrap/";
-@import "lib/variables";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "lib/flatly";
-@import "lib/card";
+@import 'lib/variables';
+@import 'lib/flatly';
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 @import 'dialog';
 body {
   padding-top: 70px;

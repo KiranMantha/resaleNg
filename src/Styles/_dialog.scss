@@ -1,9 +1,8 @@
 .dialog-open {
     overflow: hidden;
 }
-
 dialog-holder {
-    position: absolute;
+    position: fixed;
     right: 0;
     left: 0;
     top: 0;
@@ -25,7 +24,7 @@ dialog-holder {
     margin: auto;
     margin-bottom: 20px;
     header {
-        h4 {
+        h5 {
             margin: 0;
         }
         .exit-button {
