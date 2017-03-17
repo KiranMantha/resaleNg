@@ -19,6 +19,7 @@ export class DialogComponent {
                 this.componentFactoryResolver.resolveComponentFactory(_bodyComponent);
 
             this.dialogBody.createComponent(dialogBodyComponentFactory, 0, this.dialogBody.injector);
+            this.dialogBody.element.nativeElement.ownerDocument.body.className = 'dialog-open';
         }
     }
 }

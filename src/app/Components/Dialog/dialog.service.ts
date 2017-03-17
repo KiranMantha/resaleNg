@@ -1,7 +1,7 @@
 import { Component, Inject, Injectable, Type } from '@angular/core';
 import { DialogContainerComponent } from './dialog-container.component';
 import { DialogComponent } from './dialog.component';
-import { GlobalService } from '../App/app.global.service';
+import { GlobalService } from './dialog.global.service';
 
 @Injectable()
 export class DialogService {

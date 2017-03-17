@@ -4,10 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { GlobalService } from './app.global.service';
-import { HeaderModule } from 'app/Components//Header';
-import { TodoModule } from 'app/Components//Todo';
-import { DialogModule } from  'app/Components//Dialog';
+import { HeaderModule } from 'app/Components/Header';
+import { TodoModule } from 'app/Components/Todo';
+import { DialogModule } from  'app/Components/Dialog';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,6 @@ import { DialogModule } from  'app/Components//Dialog';
     TodoModule,
     DialogModule
   ],
-  providers: [GlobalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
