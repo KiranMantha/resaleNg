@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from 'app/Components/Header';
 import { TodoModule } from 'app/Components/Todo';
 import { DialogModule } from  'app/Components/Dialog';
-
+import { routing } from '../../Routes/routes'
+ 
 @NgModule({
   declarations: [
     AppComponent
@@ -18,7 +19,8 @@ import { DialogModule } from  'app/Components/Dialog';
     HttpModule,
     HeaderModule,
     TodoModule,
-    DialogModule
+    DialogModule,
+    routing
   ],
   bootstrap: [AppComponent]
 })
