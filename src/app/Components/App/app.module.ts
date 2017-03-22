@@ -8,7 +8,6 @@ import { HeaderModule } from 'app/Components/Header';
 import { TodoModule } from 'app/Components/Todo';
 import { DialogModule } from 'app/Components/Dialog';
 import { routing } from '../../Routes/routes'
-import { ApiWrapper } from '../../Shared/apiservice';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { ApiWrapper } from '../../Shared/apiservice';
     DialogModule,
     routing
   ],
-  providers: [ApiWrapper],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
