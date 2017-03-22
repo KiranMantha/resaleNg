@@ -3,9 +3,8 @@ import { TodoModal } from '../../Modals/todo.modal';
 import { DialogService } from '../Dialog/dialog.service';
 
 @Component({
-    moduleId: module.id,
     selector: '[todo]',
-    templateUrl: 'todo.component.html'
+    templateUrl: './todo.component.html'
 })
 export class TodoComponent {
     constructor(@Inject(DialogService) public _dialogService: DialogService) {

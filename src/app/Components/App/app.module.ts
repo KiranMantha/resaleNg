@@ -6,9 +6,10 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderModule } from 'app/Components/Header';
 import { TodoModule } from 'app/Components/Todo';
-import { DialogModule } from  'app/Components/Dialog';
+import { DialogModule } from 'app/Components/Dialog';
 import { routing } from '../../Routes/routes'
- 
+import { ApiWrapper } from '../../Shared/apiservice';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -22,6 +23,7 @@ import { routing } from '../../Routes/routes'
     DialogModule,
     routing
   ],
+  providers: [ApiWrapper],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
