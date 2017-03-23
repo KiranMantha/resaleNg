@@ -9,6 +9,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 700px;
+}
+
+.card {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  &,.card-footer {
+    border: none;
+  }
 }
 
 .control {
@@ -19,15 +27,18 @@ body {
     border: 1px solid #dce4ec;
   }
 }
-.navbar {
-  & > .container {
-    margin-left: 0;
-    margin-right: 0;
-    .navbar-toggler-right {
-      right: 0em;
-    }
-    .navbar-nav .nav-item + .nav-item {
+
+@media (max-width: 991px) {
+  .navbar {
+    &>.container {
+      margin-left: 0;
+      margin-right: 0;
+      .navbar-toggler-right {
+        right: 0em;
+      }
+      .navbar-nav .nav-item+.nav-item {
         margin-left: 0;
+      }
     }
   }
 }

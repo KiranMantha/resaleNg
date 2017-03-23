@@ -21,11 +21,13 @@
       "prefix": "app",
       "styles": [
         "Styles/app.scss",
+        "../node_modules/tether/dist/css/tether.min.css",
         "../node_modules/font-awesome/scss/font-awesome.scss",
         "../node_modules/ionicons/dist/scss/ionicons.scss"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/tether/dist/js/tether.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js"
       ],
       "environmentSource": "environments/environment.ts",
