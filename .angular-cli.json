@@ -21,9 +21,13 @@
       "prefix": "app",
       "styles": [
         "Styles/app.scss",
-        "../node_modules/font-awesome/scss/font-awesome.scss"
+        "../node_modules/font-awesome/scss/font-awesome.scss",
+        "../node_modules/ionicons/dist/scss/ionicons.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -32,7 +36,8 @@
     }
   ],
   "addons": [
-      "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"
+      "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)",
+      "../node_modules/ionicons/dist/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"
   ],
   "e2e": {
     "protractor": {

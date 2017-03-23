@@ -5,18 +5,23 @@ import { FormsModule } from '@angular/forms';
 import { DialogModule } from '../Dialog';
 
 import { TodoComponent } from './todo.component';
-import { TodoService } from './todo.service'
+import { TodoListComponent } from './todo-list.component';
+import { TodoDetailsComponent } from './todo-detail.component';
+import { TodoService } from './todo.service';
+import { UserService } from './user.service';
+import { todorouting } from './routes';
 
 
 @NgModule({
     imports: [
         CommonModule,
         FormsModule,
-        DialogModule
+        DialogModule,
+        todorouting
     ],
-    providers:[TodoService],
-    declarations: [TodoComponent],
-    exports: [TodoComponent],
-    entryComponents:[TodoComponent]
+    providers: [TodoService, UserService],
+    declarations: [TodoComponent, TodoListComponent, TodoDetailsComponent],
+    exports: [TodoComponent, TodoListComponent, TodoDetailsComponent],
+    entryComponents: [TodoComponent, TodoListComponent, TodoDetailsComponent]
 })
 export class TodoModule { } 
